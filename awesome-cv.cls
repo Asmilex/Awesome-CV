@@ -778,3 +778,9 @@
       \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
     }
 }
+
+% Command to provide nice looking inline links
+\definecolor{urlcolor}{HTML}{546db1}
+\newcommand*{\inlinelink}[2]{%
+  \color{urlcolor}\href{#1}{#2}\color{text}%
+}
