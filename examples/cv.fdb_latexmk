@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1659017686 "c:/Users/Andre/Repositorios/Awesome-CV/examples/cv.tex" "cv.pdf" "cv" 1659017686
+["pdflatex"] 1659017686 "c:/Users/Andre/Repositorios/Awesome-CV/examples/cv.tex" "cv.pdf" "cv" 1659018330
   "awesome-cv.cls" 1658162586 0 b1ea0f130a7f3f4b5b802b172e7ee4d5 ""
   "c:/Users/Andre/Repositorios/Awesome-CV/examples/cv.tex" 1659017684 3806 7e5bb693cf67dab0bad48af46a12069c ""
   "cv.aux" 1659017686 34 3985256e7290058c681f74d7a3565a19 ""
@@ -34,5 +34,5 @@
   "e:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1625767824 2814140 ffd770da8d0fec9211876a3f6e7c0fa7 ""
   "e:/texlive/2021/texmf.cnf" 1625767623 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "cv.log"
   "cv.pdf"
+  "cv.log"
