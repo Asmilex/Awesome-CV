@@ -6,12 +6,12 @@
 \begin{cventries}
     \cventry
       {\inlinelink{http://github.com/Asmilex/Raytracing}{github.com/Asmilex/Raytracing}}
-      {Real time raytracing accelerated by GPU}
+      {Real time ray tracing — theory, applications, and GPU-based implementation using Monte Carlo techniques}
       {Granada, Spain}
       {June 2021 - July 2022}
       {
         \begin{cvitems} % Description(s)
-          \item {Thesis of the Bachelor's Degree in Computer Engineering and Mathematics. Research of how to simulate light in real time using raytracing.}
+          \item {Thesis of the Bachelor's Degree in Computer Engineering and Mathematics.}
           \item {Implemented a Vulkan path tracing engine based on Monte Carlo integration using Nvidia DesignWorks' Nvpro-samples library. The engine is hardware accelerated on modern Nvidia's RTX GPUs. The project was inspired by Ray Tracing In One Weekend series}
           \item {Analyzed the quality of the image in terms of rendering time and noise of the reconstruction.}
           \item {Designed and implemented a CI/CD system to build and deploy the documentation of the thesis. Based on Github Actions and custom Docker container images.}
@@ -25,9 +25,9 @@
         {December 2022}
         {
           \begin{cvitems} % Description(s)
-            {Docker compose-based personal homelab server running on RHEL9 used by multiple users.}
-            {Running multiple selfhosted services for personal use: SFTP server, monitoring (Dozzle, Portainer, Uptime Kuma), URL shortener (golinks), photograph storage (Immich), backups (Restic), remote development (Vscode server) and more}
-            {Secured using VPN (Tailscale)}
+            \item {Docker compose-based personal homelab server running on RHEL9 used by multiple users.}
+            \item {self-hosted services for personal use: SFTP and SMB server, monitoring (Dozzle, Portainer, Uptime Kuma), URL shortener (golinks), photograph storage (Immich), backups (Restic), remote development (Vscode server), S3 object storage (Minio) }
+            \item {Secured using a VPN (Tailscale), with requests handled by load balancing (Traefik) and inward-facing DNS (Adguard) }
           \end{cvitems}
         }
 
